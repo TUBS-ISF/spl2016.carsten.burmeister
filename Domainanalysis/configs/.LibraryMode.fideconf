@@ -1,0 +1,35 @@
+# Lists all features from the model with manual (first digit) and automatic (second digit) selection
+# 0 = deselected, 1 = selected, 2 = undefined
+21Sort
+21SortAlgorithm
+20BubbleSort
+20QuickSort
+12JavaSort
+20RandomSort
+21Data-Input
+20ConsoleInput
+20TCPSocketInput
+20JSONInput
+20JavaSerializableInput
+20FileInput
+12UseAsLibraryInput
+21Configuration
+20ConsoleConfig
+20ConfigFile
+20XML
+20INI
+20SocketConfig
+20JSONConfig
+20JavaSerializableConfig
+12UseAsLibraryConfiguration
+21Data-Output
+22FileOutput
+20TCPSocketOutput
+20JSONOutput
+20JavaSerializableOutput
+12UseAsLibraryOutput
+22Console-Output
+21SortCriteria
+20SortAscending
+12MultiField
+12Logging
