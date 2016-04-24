@@ -127,7 +127,7 @@
 							Bietet die Sortier-Funktion auch als Library an
 						</description>
 					</feature>
-					<feature mandatory="true" name="Console-Output">
+					<feature mandatory="true" name="ConsoleOutput">
 						<description>
 							Printed den Output-Datensatz auf die Konsole
 						</description>
