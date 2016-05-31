@@ -10,6 +10,7 @@ public class ConsoleInput implements DataInput<String> {
 
 	@Override
 	public List<String> readData() {
+		System.out.println("Please enter your data row by row.");
 		List<String> result = new ArrayList<>();
 		try (Scanner sc = new Scanner(System.in);) {
 			String line;

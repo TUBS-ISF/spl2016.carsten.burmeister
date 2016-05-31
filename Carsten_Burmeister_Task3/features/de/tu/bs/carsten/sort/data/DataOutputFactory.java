@@ -8,15 +8,17 @@ public class DataOutputFactory {
 
 	@SuppressWarnings("unchecked")
 	public static <T> DataOutput<T> getOutput(Class<T> clazz) {
+		DataOutput<T> dOut = null;
 		/*if[FileInput]*/
 		if (clazz.isInstance("")) {
-			return (DataOutput<T>) new FileOutput(new File("Output.txt"));
+			dOut = (DataOutput<T>) new FileOutput(new File("Output.txt"));
 		} else {
 			throw new IllegalArgumentException("File always writes String");
 		}
 		/*end[FileInput]*/
 		/*if[ConsoleInput]*/
-			return new ConsoleOutput<T>();
+			dOut = new ConsoleOutput<T>();
 		/*end[ConsoleInput]*/
+		return dOut;
 	}
 }

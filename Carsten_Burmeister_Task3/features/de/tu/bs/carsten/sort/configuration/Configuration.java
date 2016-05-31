@@ -6,9 +6,11 @@ import java.util.Comparator;
 public class Configuration {
 
 	public static Configuration getInstance(){
+		Configuration c = null;
 		/*if[ConsoleConfig]*/
-		return readConsole();
+		c = readConsole();
 		/*end[ConsoleConfig]*/
+		return c;
 	}
 
 	/*if[ConsoleConfig]*/
