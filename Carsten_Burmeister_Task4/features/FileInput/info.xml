@@ -1,0 +1,5 @@
+<plugin>
+	<interface id="de.tu.bs.carsten.sort.data.DataInput">
+		<class>de.tu.bs.carsten.sort.data.file.FileInput</class>
+	</interface>
+</plugin>

@@ -1,0 +1,5 @@
+<plugin>
+	<interface id="de.tu.bs.carsten.sort.algorithms.SortAlgorithm">
+		<class>de.tu.bs.carsten.sort.algorithms.JavaSort</class>
+	</interface>
+</plugin>
