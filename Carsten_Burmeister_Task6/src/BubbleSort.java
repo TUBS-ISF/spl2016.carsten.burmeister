@@ -1,4 +1,4 @@
-package de.tu.bs.carsten.sort.algorithms;
+
 
 import java.util.Comparator;
 import java.util.List;

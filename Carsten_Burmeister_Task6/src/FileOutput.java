@@ -1,12 +1,10 @@
-package de.tu.bs.carsten.sort.data.file;
+
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-
-import de.tu.bs.carsten.sort.data.DataOutput;
 
 public class FileOutput implements DataOutput<String>{
 
